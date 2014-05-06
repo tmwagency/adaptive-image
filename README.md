@@ -24,13 +24,13 @@ All adaptive images must be specified using `div` tags
 
 ## Attributes
 
-**`data-adaptive`** – Should be set to specify that the container is an adaptive image element.
+- **`data-adaptive`** – Should be set to specify that the container is an adaptive image element.
 
-**`data-adaptive-image-breakpoints`** – Set with the breakpoint width values you wish to specify images for, in pixels.
+- **`data-adaptive-image-breakpoints`** – Set with the breakpoint width values you wish to specify images for, in pixels.
 
-**`data-alt`** – The alt text for your image. This text is the same across all images
+- **`data-alt`** – The alt text for your image. This text is the same across all images
 
-**`data-adaptive-defer`** – Stops the image being loaded when the initialise method is called.  Can then be subsequently loaded by calling `AdaptiveImage.loadImage(element)`
+- **`data-adaptive-defer`** – Stops the image being loaded when the initialise method is called.  Can then be subsequently loaded by calling `AdaptiveImage.loadImage(element)`
 
 
 
