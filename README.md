@@ -11,7 +11,7 @@ Add the [adaptive-image.js](https://github.com/tmwagency/adaptive-image/blob/mas
 
 Specify your adaptive images using HTML as shown below, and then call `AdaptiveImage.init(window, false);` to initialise your adaptive images.
 
-Also see the [index in the root of the repo](https://github.com/tmwagency/adaptive-image/blob/master/index.html) for more info.
+Also see the [index.html in the root of the repo](https://github.com/tmwagency/adaptive-image/blob/master/index.html) for more info.
 
 ### Specifying your adaptive images
 
