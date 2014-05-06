@@ -30,6 +30,12 @@ Should be set to specify that the container is an adaptive image element.
 ####`data-adaptive-image-breakpoints`
 Set with the breakpoint width values you wish to specify images for, in pixels.
 
+####`data-img-x`
+Attributes specifying the image to be displayed when the width is below the pixel amount specified.  So `data-img-320` specifies an image to be displayed when the calculated width is less than 320 pixels.
+
+####`data-img-max`
+The image to be displayed when above the maximum breakpoint value given in `data-adaptive-image-breakpoints`.  So in the above HTML, when the browser is above 800px wide it will display the image specified in `data-img-max`.
+
 ####`data-alt`
 The alt text for your image. This text is the same across all images
 
