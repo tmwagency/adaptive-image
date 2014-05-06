@@ -20,7 +20,7 @@ Specify your adaptive images using HTML as shown below, and then call `AdaptiveI
 		</noscript>
 	</div>
 
-All adaptive images must be specified using `div` tags
+All adaptive images must be specified using `div` tags, and a fallback image should be specified in `<noscript>` tags for when users have JS disabled.
 
 ## Attributes
 
