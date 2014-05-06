@@ -9,7 +9,7 @@ Can also be used to simply lazy load images on your page that don't need to be l
 
 Add the [adaptive-image.js](https://github.com/tmwagency/adaptive-image/blob/master/js/adaptive-image.js) to your project.
 
-Specify your adaptive images using HTML as shown below, and then call `AdaptiveImage.init(window, true);` to initialise your adaptive images.
+Specify your adaptive images using HTML as shown below, and then call `AdaptiveImage.init(window, false);` to initialise your adaptive images.
 
 
 ### Specifying your adaptive images
@@ -42,6 +42,17 @@ The alt text for your image. This text is the same across all images
 ####`data-adaptive-defer`
 Stops the image from being loaded when the `AdaptiveImage.init(…)` function is called.  Images can then be subsequently loaded by calling `AdaptiveImage.loadImage(image)` where image is the dom element of the image being loaded.
 
+## Functions
+
+####.init(_window_, _checkForPixelDensity_)
+
+Initialise adaptive images on your page.
+
+The function is passed 2 values – the first should be your document `window` object.  The second is whether you would like AdaptiveImage to check for the device pixel density.
+
+####.loadImage(_element_)
+
+Loads an image dependent on the screen size.  Passed the DOM reference of the image to be loaded as `element`.
 
 ## Author
 [Ashley Nolan](https://github.com/ashleynolan) – [@AshNolan_](http://www.twitter.com/AshNolan_)
